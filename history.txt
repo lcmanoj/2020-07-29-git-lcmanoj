@@ -1,0 +1,112 @@
+147  git --version
+  148  ~/Desktop
+  149  mkdir 2020-07-29-git-lcmanoj
+  150  cd  2020-07-29-git-lcmanoj
+  151  pwd
+  152  ls -a
+  153  git init
+  154  git config --global user.name ‟lcmanoj”
+  155  git config --global user.email ‟lc_m@yahoo.com”
+  156  git config --list
+  157  pwd
+  158  ls -a
+  159  git status
+  160  nano README.md
+  161  git
+  162  cd  2020-07-29-git-lcmanoj
+  163  pwd
+  164  ~/Desktop
+  165  cd  2020-07-29-git-lcmanoj
+  166  ls -a
+  167  git status
+  168  nano README.md
+  169  git status
+  170  git init
+  171  nano README.md
+  172  git status
+  173  git status
+  174  nano README.md
+  175  git status
+  176  git add README.md
+  177  git commit README.md
+  178  git status
+  179  cd  2020-07-29-git-lcmanoj
+  180  cd  Documents/2020-07-29-git-lcmanoj
+  181  ls -a
+  182  git add README.md
+  183  git add README.md.save
+  184  git commit README.md.save
+  185  git status
+  186  nano README.md
+  187  nano README.md.save
+  188  git status
+  189  git add README.md.save
+  190  git commit -m ‟test commits”
+  191  git commit -a
+  192  nano README.md.save
+  193  git status
+  194  git diff
+  195  git add README.md.save
+  196  git status
+  197  git commit -m ‟test commits 3 ” README.md.save
+  198  git commit -a
+  199  git log
+  200  git log --oneline
+  201  git diff HEAD~2
+  202  git diff --staged
+  203  nano README.md.save
+  204  git status
+  205  git restore --staged README.md.save
+  206  git status
+  207  git add README.md.save
+  208  git commit -a
+  209  git log --oneline
+  210  git status
+  211  git diff 2e32bb3
+  212  git checkout HEAD~3 README.md.save
+  213  git status
+  214  nano README.md.save
+  215  git status
+  216  got log --oneline
+  217  git log --oneline
+  218  git restore README.md.save
+  219* 
+  220  git checkout HEAD README.md.save
+  221  nano README.md.save
+  222  git status
+  223  history
+  224  get checkout master
+  225  git checkout master
+  226  history
+  227  git@github.com:lcmanoj/2020-07-29-git-lcmanoj.git
+  228  git remote add origin https://github.com/lcmanoj/2020-07-29-git-lcmanoj.git
+  229  git remote -v
+  230  git push origin master
+  231  open .
+  232  git status
+  233  nano Analysis/README.md
+  234  git status
+  235  git add .
+  236  git push origin master
+  237  nano Analysis/README.md
+  238  git status
+  239  git commit
+  240  git push origin master
+  241  git pull origin master
+  242  history
+  243  git remote -v
+  244  git remote -v
+  245  git status
+  246  nano Analysis/README.md
+  247  nano Analysis/README2.md
+  248  nano Analysis/README2.md
+  249  git pull origin master
+  250  nano Analysis/README2.md
+  251  git status
+  252  git add .
+  253  git commit -m ‟test add line”
+  254  git commit
+  255  git status
+  256  git push origin master
+  257  history
+
