@@ -1,8 +1,7 @@
 # 2020-07-29-git-lcmanoj
 
 ­ git init : create a repo
-
-^O
-^X
-^o
-
+- git status
+- git add path adds the path to the staging area
+- git commit
+- git commit -m ‟your message” 
