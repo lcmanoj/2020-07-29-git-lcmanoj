@@ -6,3 +6,6 @@
 - git commit
 - git commit -m ‟your message” 
 # nano comes with anaconda
+- git log show the log
+- git log --oneline
+- git diff
