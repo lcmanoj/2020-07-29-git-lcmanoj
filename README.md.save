@@ -5,3 +5,4 @@
 - git add path adds the path to the staging area
 - git commit
 - git commit -m ‟your message” 
+# nano comes with anaconda
